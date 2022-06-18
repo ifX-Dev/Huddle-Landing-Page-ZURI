@@ -34,7 +34,7 @@
         </div>
     </header>
     <main>
-        <div class="main-1">
+        <div class="main-1" id="main-1" onmouseover="anim();" onmouseleave="anim_out();">
             <div class="main-1-text">
                 <h3>
                     Grow Together
@@ -47,7 +47,7 @@
                 <img src="illustration-grow-together.svg" alt="">
             </div>
         </div>
-        <div class="main-2">
+        <div class="main-2" id="main-2" onmouseover="anim_1();" onmouseleave="anim_out_1();">
             <div class="main-2-img">
                 <img src="illustration-flowing-conversation.svg" alt="">
             </div>
@@ -60,7 +60,7 @@
                 </p>
             </div>
         </div>
-        <div class="main-3">
+        <div class="main-3" id="main-3" onmouseover="anim_2();" onmouseleave="anim_out_2();">
             <div class="main-3-text">
                 <h3>
                     Your Users
@@ -127,7 +127,39 @@
             </div>
         </div>
     </footer>
+    <script>
+        function anim() {
+            document.getElementById('main-1').style.transform = "scale(1.035)";
+            document.getElementById('main-1').style.transition= "all 0.15s linear";
+            document.getElementById('main-1').style.boxShadow="0 6px 30px -4px lightgray";
+        }
+        function anim_out() {
+            document.getElementById('main-1').style.transform = "scale(1)";
+            document.getElementById('main-1').style.transition= "all 0.15s linear";
+            document.getElementById('main-1').style.boxShadow="0 0 8px -4px hsl(208, 11%, 55%)";
+        }
+        function anim_1() {
+            document.getElementById('main-2').style.transform = "scale(1.035)";
+            document.getElementById('main-2').style.transition= "all 0.15s linear";
+            document.getElementById('main-2').style.boxShadow="0 6px 30px -4px lightgray";
+        }
+        function anim_out_1() {
+            document.getElementById('main-2').style.transform = "scale(1)";
+            document.getElementById('main-2').style.transition= "all 0.15s linear";
+            document.getElementById('main-2').style.boxShadow="0 0 8px -4px hsl(208, 11%, 55%)";
+        }
+        function anim_2() {
+            document.getElementById('main-3').style.transform = "scale(1.035)";
+            document.getElementById('main-3').style.transition= "all 0.15s linear";
+            document.getElementById('main-3').style.boxShadow="0 6px 30px -4px lightgray";
+        }
+        function anim_out_2() {
+            document.getElementById('main-3').style.transform = "scale(1)";
+            document.getElementById('main-3').style.transition= "all 0.15s linear";
+            document.getElementById('main-3').style.boxShadow="0 0 8px -4px hsl(208, 11%, 55%)";
+        }
+    </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
