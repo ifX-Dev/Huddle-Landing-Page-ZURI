@@ -506,6 +506,9 @@ button:hover, button:active {
       }
 }
 @media screen and (max-width: 375px) {
+    header {
+        background-image: url(bg-hero-mobile.svg);
+    }
     .head-1 {
         height: 17.5vw;
     }
