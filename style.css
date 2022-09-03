@@ -488,9 +488,10 @@ button:active {
     .main-2,
     .main-3 {
         flex-direction: column;
-        height: 75vw;
+        height: 135vw;
         width: 100%;
-        padding: 5vw 0;
+        padding: 7.5vw 0;
+        padding-top: 12.5vw;
         padding-left: 0;
         box-shadow: 0 0 8px -4px hsl(208, 11%, 55%);
     }
@@ -503,28 +504,28 @@ button:active {
     .main-1-img img,
     .main-2-img img,
     .main-3-img img {
-        height: 30vw;
+        height: 60vw;
     }
 
     .main-1-text,
     .main-2-text,
     .main-3-text {
         height: auto;
-        width: 60%;
+        width: 75%;
     }
 
     h3 {
         text-align: center;
-        font-size: 5vw;
-        margin-bottom: 2.5vw;
+        font-size: 6vw;
+        margin-bottom: 4vw;
     }
 
     .main-1-text p,
     .main-2-text p,
     .main-3-text p {
         text-align: center;
-        font-size: 2.5vw;
-        line-height: 4vw;
+        font-size: 3.75vw;
+        line-height: 6.25vw;
     }
 
     main {
@@ -698,34 +699,5 @@ button:active {
     .head-1 a button {
         padding: 1.5vw 7.5vw;
         font-size: 3.75vw;
-    }
-
-    .main-1,
-    .main-2,
-    .main-3 {
-        height: 110vw;
-        width: 100%;
-    }
-
-    .main-1-img img,
-    .main-2-img img,
-    .main-3-img img {
-        height: 50vw;
-    }
-
-    .main-1-text,
-    .main-2-text,
-    .main-3-text {
-        width: 75%;
-    }
-
-    h3 {
-        font-size: 5vw;
-    }
-
-    .main-1-text p,
-    .main-2-text p,
-    .main-3-text p {
-        font-size: 3.25vw;
     }
 }
